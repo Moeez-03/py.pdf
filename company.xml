@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Company SYSTEM "company.dtd">
+<Company>
+  <Division DID="001" DNAME="Division 1" LOCATION="Location 1">
+    <Project PID="0001" PNAME="Project 1" BUDGET="100000" DID="001">
+      <Employee EID="000001" ENAME="John" OFFICE="101" BIRTHDATE="1990-01-01" SALARY="50000" DID="001">
+        <Assign PID="0001" EID="000001" HOURS="40"/>
+      </Employee>
+      <Employee EID="000002" ENAME="Smith" OFFICE="102" BIRTHDATE="1991-01-01" SALARY="60000" DID="001">
+        <Assign PID="0001" EID="000002" HOURS="30"/>
+      </Employee>
+    </Project>
+    <Project PID="0002" PNAME="Project 2" BUDGET="200000" DID="001">
+      <Employee EID="000003" ENAME="David" OFFICE="103" BIRTHDATE="1992-01-01" SALARY="70000" DID="001">
+        <Assign PID="0002" EID="000003" HOURS="45"/>
+      </Employee>
+      <Employee EID="000004" ENAME="Jessica" OFFICE="104" BIRTHDATE="1993-01-01" SALARY="80000" DID="001">
+        <Assign PID="0002" EID="000004" HOURS="35"/>
+      </Employee>
+      <Employee EID="000005" ENAME="Emily" OFFICE="105" BIRTHDATE="1994-01-01" SALARY="90000" DID="001">
+        <Assign PID="0002" EID="000005" HOURS="50"/>
+      </Employee>
+    </Project>
+  </Division>
+  <Division DID="002" DNAME="Division 2" LOCATION="Location 2">
+    <Project PID="0003" PNAME="Project 3" BUDGET="300000" DID="002">
+      <Employee EID="000006" ENAME="Michael" OFFICE="201" BIRTHDATE="1980-01-01" SALARY="100000" DID="002">
+        <Assign PID="0003" EID="000006" HOURS="20"/>
+      </Employee>
+      <Employee EID="000007" ENAME="Samantha" OFFICE="202" BIRTHDATE="1985-01-01" SALARY="110000" DID="002">
+        <Assign PID="0003" EID="000007" HOURS="25"/>
+      </Employee>
+      <Employee EID="000008" ENAME="Jacob" OFFICE="203" BIRTHDATE="1990-01-01" SALARY="120000" DID="002">
+        <Assign PID="0003" EID="000008" HOURS="30"/>
+      </Employee>
+    </Project>
+    <Project PID="0004" PNAME="Project 4" BUDGET="400000" DID="002">
+      <Employee EID="000009" ENAME="Amele" OFFICE="203" BIRTHDATE="1995-01-01" SALARY="130000" DID="002">
+        <Assign PID="0003" EID="000009" HOURS="35"/>
+      </Employee>
+      <Employee EID="000007" ENAME="Jhon" OFFICE="204" BIRTHDATE="2000-01-01" SALARY="140000" DID="002">
+        <Assign PID="0003" EID="000010" HOURS="40"/>
+      </Employee>
+      <Employee EID="000008" ENAME="Habib" OFFICE="205" BIRTHDATE="2005-01-01" SALARY="150000" DID="002">
+        <Assign PID="0003" EID="000011" HOURS="45"/>
+      </Employee>
+    </Project>
+  </Division>
+</Company>
